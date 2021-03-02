@@ -13,4 +13,9 @@ let secretIdentity = superHeroes.map(
 
 console.log(secretIdentity)
 
-// Challenge 2
+// Challenge 4
+let slideshow = {
+    photoList: [
+        'beach', 'islands', 'foods', dogs
+    ];
+}
