@@ -1,12 +1,16 @@
-//Declare an add function
-function add(number1, number2) {
-	return number1 + number2;
-}
+// Challenge 1
+let superHeroes = [
+    ["Batman", "Bruce Wayne"],
+    ["Spiderman", "Peter Parker"],
+    ["The Flash", "Barry Allen"]
+  ]
 
-//Declare a function that takes a function as an argument
-function doMath(operation, number1, number2) {
-	return operation(number1,number2);
-}
+let secretIdentity = superHeroes.map(
+    function(revealArray) {
+        return `${superHeroes[[0]]} is ${superHeroes[[1]]}`
+    }
+) 
 
-//Pass a function into another.
-let sum = doMath(add, 1, 2);
+console.log(secretIdentity)
+
+// Challenge 2
